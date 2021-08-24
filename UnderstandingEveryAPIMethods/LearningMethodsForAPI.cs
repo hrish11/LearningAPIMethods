@@ -11,7 +11,8 @@ namespace UnderstandingEveryAPIMethods
         public string surname { get; set; }
         static void Main(string[] args)
         {
-            GetApiData("https://spoonacular.com/food-api");
+            GetApiData("https://randommer.io/Text");
+            Console.ReadKey();
         }
 
         private static void GetApiData(string apiurl)
